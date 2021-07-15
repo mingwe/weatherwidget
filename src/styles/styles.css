@@ -1,0 +1,38 @@
+.Widget {
+  /*text-align: center;*/
+}
+.bg-app {
+  background: #ccc;
+  backgroud-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  /*transition: 0.3s;*/
+}
+.bg-init {
+  background-image: none;
+  background: #bbb;
+}
+.bg-sunny {
+  background-image: url('../assets/sunny.jpg');
+}
+.bg-cloud {
+  background-image: url('../assets/clouds.jpeg');
+}
+.bg-rain {
+  background-image: url('../assets/rain.jpg');
+}
+.bg-white-transp {
+  background: rgba(255,255,255,0.8);
+}
+.bg-dark-transp {
+  background: rgba(100,100,100,0.6);
+}
+iframe {
+  border: 0;
+  opacity: 0.85;
+  filter: grayscale(0.25);
+}
+.rounded-xl {
+  border-radius: 1rem;
+}
